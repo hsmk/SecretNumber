@@ -27,13 +27,15 @@
 		8383C025181FC8AC00C4745D /* 53-house.png in Resources */ = {isa = PBXBuildFile; fileRef = 8383C022181FC8AC00C4745D /* 53-house.png */; };
 		8383C027181FC90500C4745D /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8383C026181FC90500C4745D /* Storyboard.storyboard */; };
 		8383C029181FCAD600C4745D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8383C028181FCAD600C4745D /* logo.png */; };
-		8383C02C181FD10700C4745D /* AdminViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8383C02B181FD10700C4745D /* AdminViewController.m */; };
 		8383C030181FD39A00C4745D /* buckman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8383C02D181FD39A00C4745D /* buckman.jpg */; };
 		8383C031181FD39A00C4745D /* doolittle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8383C02E181FD39A00C4745D /* doolittle.jpg */; };
 		8383C032181FD39A00C4745D /* lovelace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8383C02F181FD39A00C4745D /* lovelace.jpg */; };
 		8383C034181FD8BE00C4745D /* Screen Shot 2013-10-29 at 9.50.04 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 8383C033181FD8BE00C4745D /* Screen Shot 2013-10-29 at 9.50.04 PM.png */; };
 		8383C037181FDBE500C4745D /* MakeAppointmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8383C036181FDBE500C4745D /* MakeAppointmentViewController.m */; };
 		8383C03D181FE3A400C4745D /* AppointmentAddedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8383C03C181FE3A400C4745D /* AppointmentAddedViewController.m */; };
+		83C2F9241821349100CB3C19 /* Appointment.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C2F9231821349100CB3C19 /* Appointment.m */; };
+		83C2F92D182145F700CB3C19 /* ChooseConsultantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C2F92C182145F700CB3C19 /* ChooseConsultantViewController.m */; };
+		83C2F930182154D400CB3C19 /* ViewAppointmentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C2F92F182154D400CB3C19 /* ViewAppointmentsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,8 +72,6 @@
 		8383C022181FC8AC00C4745D /* 53-house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "53-house.png"; sourceTree = "<group>"; };
 		8383C026181FC90500C4745D /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		8383C028181FCAD600C4745D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		8383C02A181FD10700C4745D /* AdminViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdminViewController.h; sourceTree = "<group>"; };
-		8383C02B181FD10700C4745D /* AdminViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdminViewController.m; sourceTree = "<group>"; };
 		8383C02D181FD39A00C4745D /* buckman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buckman.jpg; sourceTree = "<group>"; };
 		8383C02E181FD39A00C4745D /* doolittle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doolittle.jpg; sourceTree = "<group>"; };
 		8383C02F181FD39A00C4745D /* lovelace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lovelace.jpg; sourceTree = "<group>"; };
@@ -80,6 +80,12 @@
 		8383C036181FDBE500C4745D /* MakeAppointmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeAppointmentViewController.m; sourceTree = "<group>"; };
 		8383C03B181FE3A400C4745D /* AppointmentAddedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointmentAddedViewController.h; sourceTree = "<group>"; };
 		8383C03C181FE3A400C4745D /* AppointmentAddedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppointmentAddedViewController.m; sourceTree = "<group>"; };
+		83C2F9221821349100CB3C19 /* Appointment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Appointment.h; path = ../Appointment.h; sourceTree = "<group>"; };
+		83C2F9231821349100CB3C19 /* Appointment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Appointment.m; path = ../Appointment.m; sourceTree = "<group>"; };
+		83C2F92B182145F700CB3C19 /* ChooseConsultantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseConsultantViewController.h; sourceTree = "<group>"; };
+		83C2F92C182145F700CB3C19 /* ChooseConsultantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseConsultantViewController.m; sourceTree = "<group>"; };
+		83C2F92E182154D400CB3C19 /* ViewAppointmentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAppointmentsViewController.h; sourceTree = "<group>"; };
+		83C2F92F182154D400CB3C19 /* ViewAppointmentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewAppointmentsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,15 +151,19 @@
 			children = (
 				8383BFFC181FC88400C4745D /* AppDelegate.h */,
 				8383BFFD181FC88400C4745D /* AppDelegate.m */,
-				8383C02A181FD10700C4745D /* AdminViewController.h */,
-				8383C02B181FD10700C4745D /* AdminViewController.m */,
 				8383C035181FDBE500C4745D /* MakeAppointmentViewController.h */,
 				8383C036181FDBE500C4745D /* MakeAppointmentViewController.m */,
+				83C2F9221821349100CB3C19 /* Appointment.h */,
+				83C2F9231821349100CB3C19 /* Appointment.m */,
+				8383C03B181FE3A400C4745D /* AppointmentAddedViewController.h */,
+				8383C03C181FE3A400C4745D /* AppointmentAddedViewController.m */,
+				83C2F92B182145F700CB3C19 /* ChooseConsultantViewController.h */,
+				83C2F92C182145F700CB3C19 /* ChooseConsultantViewController.m */,
+				83C2F92E182154D400CB3C19 /* ViewAppointmentsViewController.h */,
+				83C2F92F182154D400CB3C19 /* ViewAppointmentsViewController.m */,
 				8383C002181FC88400C4745D /* Images.xcassets */,
 				8383BFFF181FC88400C4745D /* SecretNumber.xcdatamodeld */,
 				8383BFF4181FC88400C4745D /* Supporting Files */,
-				8383C03B181FE3A400C4745D /* AppointmentAddedViewController.h */,
-				8383C03C181FE3A400C4745D /* AppointmentAddedViewController.m */,
 			);
 			path = SecretNumber;
 			sourceTree = "<group>";
@@ -299,8 +309,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8383C02C181FD10700C4745D /* AdminViewController.m in Sources */,
+				83C2F930182154D400CB3C19 /* ViewAppointmentsViewController.m in Sources */,
+				83C2F9241821349100CB3C19 /* Appointment.m in Sources */,
 				8383C037181FDBE500C4745D /* MakeAppointmentViewController.m in Sources */,
+				83C2F92D182145F700CB3C19 /* ChooseConsultantViewController.m in Sources */,
 				8383C001181FC88400C4745D /* SecretNumber.xcdatamodeld in Sources */,
 				8383BFFE181FC88400C4745D /* AppDelegate.m in Sources */,
 				8383C03D181FE3A400C4745D /* AppointmentAddedViewController.m in Sources */,
@@ -503,6 +515,7 @@
 				8383C01C181FC88400C4745D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8383C01D181FC88400C4745D /* Build configuration list for PBXNativeTarget "SecretNumberTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +524,7 @@
 				8383C01F181FC88400C4745D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

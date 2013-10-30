@@ -30,6 +30,19 @@
 
 }
 
+- (void)setConsultant:(NSString*)name AndTime:(NSString*)time{
+    appointmentList = [Appointment sharedInstance];
+    
+    [appointmentList.appointments addObject:[NSString stringWithFormat:@"%@&%@",name, time]];
+    
+    for (NSString* appointment in appointmentList.appointments) {
+        NSLog(@"%@", appointment);
+    }
+    
+    
+    
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

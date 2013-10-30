@@ -7,6 +7,7 @@
 //
 
 #import "MakeAppointmentViewController.h"
+#import "AppointmentAddedViewController.h"
 
 @interface MakeAppointmentViewController ()
 
@@ -27,7 +28,32 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    //appointmentList = [Appointment sharedInstance];
+
+    //NSLog(@"THE NUM IS: %d", [appointmentList.num intValue]);
+    
+    //[appointmentList.appointments addObject:[NSString stringWithFormat:@"test singleton"]];
+    //for (NSString* appointment in appointmentList.appointments) {
+    //    NSLog(@"%@", appointment);
+    //}
+    
+    
+    
+
+    
 }
+
+- (void)setConsultant:(int)tag{
+    if (tag == 1) {
+        consultantName = @"Franklin Doolittle";
+    } else if(tag == 2){
+        consultantName = @"Katarina Lovelace";
+    }else if(tag == 3){
+        consultantName = @"Andrew Buckman";
+    }
+    
+}
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -44,5 +70,15 @@
         [self dismissViewControllerAnimated:YES completion:nil];
     }
 }
+
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"cccc, MMM d, hh:mm aa"];
+    
+    [[segue destinationViewController] setConsultant:consultantName AndTime:[dateFormat stringFromDate:picker.date]];
+}
+
+
 
 @end
